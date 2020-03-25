@@ -1,5 +1,5 @@
-menu: AI2.cpp count2.cpp end_game2.cpp initiate_board2.cpp judge_end2.cpp legal_moves2.cpp main2.cpp players_turn2.cpp print_board2.cpp read_from_file2.cpp replay2.cpp reverse2.cpp save_to_file2.cpp
-	g++ -o menu AI2.cpp count2.cpp end_game2.cpp initiate_board2.cpp judge_end2.cpp legal_moves2.cpp main2.cpp players_turn2.cpp print_board2.cpp read_from_file2.cpp replay2.cpp reverse2.cpp save_to_file2.cpp
+menu: AI2.cpp count2.cpp end_game2.cpp initiate_board2.cpp judge_end2.cpp legal_moves2.cpp main2.cpp players_turn2.cpp print_board2.cpp read_from_file2.cpp reverse2.cpp save_to_file2.cpp
+	g++ -o menu AI2.cpp count2.cpp end_game2.cpp initiate_board2.cpp judge_end2.cpp legal_moves2.cpp main2.cpp players_turn2.cpp print_board2.cpp read_from_file2.cpp reverse2.cpp save_to_file2.cpp
 players_turn2.cpp: players_turn.cpp
 	iconv -f gb2312 -t utf-8 players_turn.cpp > players_turn2.cpp
 AI2.cpp: AI.cpp
@@ -18,8 +18,6 @@ main2.cpp: main.cpp
 	iconv -f gb2312 -t utf-8 main.cpp > main2.cpp
 read_from_file2.cpp: read_from_file.cpp
 	iconv -f gb2312 -t utf-8 read_from_file.cpp > read_from_file2.cpp
-replay2.cpp: replay.cpp
-	iconv -f gb2312 -t utf-8 replay.cpp > replay2.cpp
 reverse2.cpp: reverse.cpp
 	iconv -f gb2312 -t utf-8 reverse.cpp > reverse2.cpp
 save_to_file2.cpp: save_to_file.cpp
