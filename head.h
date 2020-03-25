@@ -1,0 +1,14 @@
+void save_to_record();
+void print_court();
+void initiate_court();
+bool AI(short whose_turn);
+int count();
+void end_game();
+void initiate_board();
+bool judge_end(short whose_turn);
+void legal_moves();
+bool players_turn(short whose_turn);
+void print_board(int a);
+bool read_from_file();
+bool my_reverse(int i,int j);
+bool save_to_file();
